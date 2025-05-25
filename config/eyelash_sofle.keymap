@@ -76,7 +76,7 @@
             >;
 
             display-name = "Function";
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_UP C_BRIGHTNESS_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         layer_3 {
