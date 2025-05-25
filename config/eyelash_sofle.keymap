@@ -81,11 +81,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &F19    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &LANG1  &LANG2  &LANG3  &LANG4  &LANG5    &F20    &LANG6  &LANG7  &LANG8  &F13    &LANG9  &trans
-&trans  &F18    &INT2   &INT3   &INT4   &INT5     &trans  &INT6   &INT7   &INT8   &INT9  &trans  &trans
-&trans  &trans  &F15    &F14    &F16    &trans    &trans  &trans  &trans  &F17    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &INT1  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &kp F19   &trans     &trans     &trans     &trans    &trans     &trans
+&trans  &kp LANG1  &kp LANG2  &kp LANG3  &kp LANG4  &kp LANG5    &kp F20   &kp LANG6  &kp LANG7  &kp LANG8  &kp F13   &kp LANG9  &trans
+&trans  &kp F18    &kp INT2   &kp INT3   &kp INT4   &kp INT5     &trans    &kp INT6   &kp INT7   &kp INT8   &kp INT9  &trans     &trans
+&trans  &trans     &kp F15    &kp F14    &kp F16    &trans       &trans    &trans     &trans     &kp F17    &trans    &trans     &trans
+&trans  &trans     &trans     &trans     &trans     &trans       &kp INT1  &trans     &trans     &trans     &trans    &trans
             >;
             display-name = "Langs";
         };
