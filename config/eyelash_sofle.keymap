@@ -42,15 +42,15 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
-&kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp GRAVE   &kp APOS   &kp EXCL      &kp SEMI      &kp DOLLAR      &kp LPAR     &kp UP_ARROW     &kp RPAR   &kp COMMA  &kp DOT    &kp QMARK        &kp MINUS   &kp EQUAL
+&to 1       &kp Q      &kp W         &kp E         &kp R           &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
+&kp INT1    &kp A      &kp S         &kp D         &kp F           &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&to 3       &kp TAB    &kp Z         &kp X         &kp C           &kp V        &kp RIGHT_ARROW  &kp B      &kp N      &kp M      &kp LBKT         &kp RBKT    &kp FSLH
+&kp C_MUTE  &trans     &kp LEFT_GUI  &kp LLCTR     &kp LSFT           &kp SPACE    &kp ENTER        &kp ENTER  &kp BSPC   &LALT      &kp F24          &kp ESC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "Normal";
         };
 
         layer_1 {
@@ -62,7 +62,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
+            display-name = "Numeric";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -75,17 +75,19 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
+            display-name = "Funct-l";
             sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &F19    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &LANG1  &LANG2  &LANG3  &LANG4  &LANG5    &F20    &LANG6  &LANG7  &LANG8  &F13    &LANG9  &trans
+&trans  &F18    &INT2   &INT3   &INT4   &INT5     &trans  &INT6   &INT7   &INT8   &INT9  &trans  &trans
+&trans  &trans  &F15    &F14    &F16    &trans    &trans  &trans  &trans  &F17    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &INT1  &trans  &trans  &trans  &trans  &trans
             >;
+            display-name = "Langs";
         };
     };
 };
