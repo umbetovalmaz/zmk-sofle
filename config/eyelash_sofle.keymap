@@ -83,7 +83,7 @@
         layer_0 {
             bindings = <
 &kp GRAVE   &kp APOS   &xat          &kp SEMI      &dampersand     &lstar       &kp UP     &rcaret    &kp COMMA  &kp DOT    &qpercent        &kp MINUS   &kp EQUAL
-&ESC        &kp Q      &kp W         &kp E         &kp R           &kp T        &kp DOWN   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
+&kp ESC        &kp Q      &kp W         &kp E         &kp R           &kp T        &kp DOWN   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
 &kp INT1    &kp A      &kp S         &kp D         &kp F           &kp G        &kp LEFT   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
 &mo 3       &kp TAB    &kp Z         &kp X         &kp C           &kp V        &kp RIGHT  &kp B      &kp N      &kp M      &kp LBKT         &kp RBKT    &kp FSLH
 &kp C_MUTE  &kp F24    &kp LEFT_GUI  &kp LCTRL     &kp LSHFT       &kp SPACE    &tog 4           &kp ENTER  &kp BSPC   &kp LALT   &to 1            &RALT
