@@ -107,9 +107,9 @@
         layer_2 {
             bindings = <
 &trans      &trans          &trans          &trans            &trans            &trans        &trans       &trans       &trans       &trans     &trans    &trans    &trans
-&trans      &trans          &trans          &trans            &trans            &trans        &trans       &trans       &trans       &trans     &trans    &trans    &trans
-&trans      &trans          &trans          &trans            &trans            &trans        &trans       &trans       &trans       &trans     &trans    &trans    &trans
-&trans      &trans          &trans          &trans            &trans            &trans        &trans       &trans       &trans       &trans     &trans    &trans    &trans
+&trans      &trans          &trans          &trans            &trans            &trans        &trans       &trans       &trans       &kp PG_UP  &trans    &trans    &trans
+&trans      &trans          &trans          &trans            &trans            &trans        &trans       &trans       &kp HOME     &kp INSERT &kp END   &trans    &trans
+&trans      &trans          &trans          &trans            &trans            &trans        &trans       &trans       &trans       &kp PG_DN  &trans    &trans    &trans
 &trans      &trans          &trans          &trans            &trans            &trans        &trans       &trans       &trans       &trans     &trans    &trans
             >;
             display-name = "Numeric+";
